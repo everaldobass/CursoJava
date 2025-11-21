@@ -1,0 +1,27 @@
+## Lógica a Algoritimos com Java
+- 01 - Introdução
+- 02 - Conceitos
+- 03 - Instalar o JDK
+- 04 - Instalar o Visual Studio
+- 05 - Configurar o ambiente
+- 06 - Estrutura de classes
+- 07 - Mensagems
+- 08 - Variaveis
+- 09 - Concatenação
+- 10 - Classe Scanner
+- 11 - Operadores Aritméticos
+- 12 - Operadores Relacionais
+- 13 - Operadores Lógicos
+- 14 - Constantes
+- 15 - Condicional
+- 16 - Operador terário
+- 17 - Estrutura de escolha
+- 18 - Expressão Switch
+- 19 - Conversões
+- 20 - While
+- 21 - Do While
+- 22 - For
+- 23 - Vetor
+- 24 - Foreach
+- 25 - Matriz
+- 26 - Considerações
