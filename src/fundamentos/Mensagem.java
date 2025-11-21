@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class Mensagem_07 {
+public class Mensagem {
 
     // Aula - 07 Exibir mensagem em Java
     public static void main(String[] args) {

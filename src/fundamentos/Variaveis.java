@@ -1,6 +1,6 @@
 package fundamentos;
 // Aula - 08 Variáveis em Java
-public class Variaveis_08 {
+public class Variaveis {
     public static void main(String[] args) {
         /**
          * Tipos de variáveis em Java:

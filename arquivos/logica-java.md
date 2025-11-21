@@ -1,4 +1,4 @@
-## Lógica a Algoritimos com Java
+## Lógica a Algoritimos com Java - Fundamentos
 - 01 - Introdução
 - 02 - Conceitos
 - 03 - Instalar o JDK
@@ -24,4 +24,3 @@
 - 23 - Vetor
 - 24 - Foreach
 - 25 - Matriz
-- 26 - Considerações
