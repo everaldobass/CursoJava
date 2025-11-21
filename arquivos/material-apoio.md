@@ -53,7 +53,7 @@ Se a versão for exibida, a instalação foi bem-sucedida.
 
 ### Exemplo Prático (Exemplo.java):Java
 ```
-```
+
 public class Exemplo {
     // Este é o método principal, o ponto de entrada.
     public static void main(String[] args) {
@@ -61,7 +61,7 @@ public class Exemplo {
     }
 }
 
-```
+
 ```
 ## 07 - Mensagens 
 - Para exibir mensagens no console (saída padrão), usamos o objeto System.out.
@@ -72,7 +72,7 @@ System.out.println("..."); Imprime a mensagem e pula para a próxima linha (adic
 System.out.print("..."); Imprime a mensagem, mas não pula para a próxima linha.
 
 ### Exemplo Prático:Java
-```
+
 ```
 public class Mensagens {
     public static void main(String[] args) {
@@ -82,7 +82,7 @@ public class Mensagens {
     }
 }
 ```
-```
+
 // Saída: Olá, Mundo!
 //Fim da Mensagem.
 
@@ -101,7 +101,7 @@ public class Mensagens {
 
 ### Exemplo Prático: Java
 ```
-```
+
 public class Variaveis {
     public static void main(String[] args) {
         String nomeCompleto = "Everaldo do Nascimento"; // Variável de texto
@@ -113,7 +113,7 @@ public class Variaveis {
         System.out.println("Preço: " + precoProduto);
     }
 }
-```
+
 ```
 
 ## 09 - Concatenação
@@ -121,7 +121,7 @@ public class Variaveis {
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class Concatenacao {
     public static void main(String[] args) {
         String nome = "Everaldo";
@@ -132,14 +132,14 @@ public class Concatenacao {
         // Saída: Meu nome é Everaldo e eu tenho 35 anos.
     }
 }
-```
+
 ```
 ### 10 - Classe Scanner
 - A classe Scanner é usada para ler dados de entrada do usuário no console (como números ou textos digitados no teclado).Importar: Precisa ser importada: import java.util.Scanner;Instanciar: Criar um objeto Scanner: Scanner sc = new Scanner(System.in);Ler: Usar métodos como nextInt(), nextDouble(), nextLine().
 
 ### Exemplo Prático:Java
 ```
-```
+
 import java.util.Scanner;
 public class EntradaDados {
     public static void main(String[] args) {
@@ -156,7 +156,7 @@ public class EntradaDados {
     }
 }
 
-```
+
 ```
 ### 11 - Operadores Aritméticos 
 - São usados para realizar operações matemáticas.
@@ -173,7 +173,7 @@ Operação Exemplo
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class Aritmeticos {
     public static void main(String[] args) {
         int a = 10;
@@ -187,7 +187,7 @@ public class Aritmeticos {
         System.out.println("Novo a: " + a);
     }
 }
-```
+
 ```
 
 ### 12 - Operadores Relacionais
@@ -202,7 +202,7 @@ Exemplo
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class Relacionais {
     public static void main(String[] args) {
         int x = 10;
@@ -215,7 +215,7 @@ public class Relacionais {
         System.out.println("X é igual a Y? " + ehIgual);
     }
 }
-```
+
 ```
 ### 13 - Operadores Lógicos
 - Usados para combinar expressões booleanas e retornar um único valor booleano.
@@ -225,7 +225,7 @@ public class Relacionais {
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class Logicos {
     public static void main(String[] args) {
         int idade = 20;
@@ -242,14 +242,14 @@ public class Logicos {
     }
 }
 
-```
+
 ```
 ### 14 - Constantes
 Constantes são variáveis cujo valor não pode ser alterado após a sua inicialização. Em Java, são declaradas com as palavras-chave final e, por convenção, com letras maiúsculas e underline (_).
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class Constantes {
     // Constante (static e final)
     public static final double PI = 3.14159; 
@@ -265,7 +265,7 @@ public class Constantes {
         System.out.println("Área do círculo: " + area);
     }
 }
-```
+
 ```
 ## 🚦 Estruturas de Controle de Fluxo
 ### 15 - Condicional (if, else if, else)
@@ -275,7 +275,7 @@ public class Constantes {
 ### Exemplo Prático:Java
 
 ```
-```
+
 public class Condicional {
     public static void main(String[] args) {
         int nota = 7;
@@ -290,7 +290,7 @@ public class Condicional {
         // Saída: Aprovado!
     }
 }
-```
+
 ```
 ### 16 - Operador Ternário
 - Uma forma concisa de escrever uma condicional simples de uma linha, que retorna um valor.
@@ -298,7 +298,7 @@ Sintaxe: variavel = (condicao) ? valor_se_verdadeiro : valor_se_falso;
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class Ternario {
     public static void main(String[] args) {
         int idade = 17;
@@ -309,7 +309,7 @@ public class Ternario {
         // Saída: Status: Menor de idade
     }
 }
-```
+
 ```
 ### 17 - Estrutura de Escolha (switch - Clássico)
 - Alternativa ao if/else if quando se testa a igualdade de uma única variável contra múltiplos valores fixos. 
@@ -317,7 +317,7 @@ public class Ternario {
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class SwitchClassico {
     public static void main(String[] args) {
         int dia = 3;
@@ -340,7 +340,7 @@ public class SwitchClassico {
         System.out.println("Dia: " + nomeDia); // Saída: Dia: Terça
     }
 }
-```
+
 ```
 ### 18 - Expressão Switch (Java 14+)
 - Uma forma mais moderna e concisa do switch que pode retornar um valor (como o ternário), eliminando a necessidade de break.
@@ -348,7 +348,7 @@ public class SwitchClassico {
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class SwitchExpression {
     public static void main(String[] args) {
         int dia = 3;
@@ -363,7 +363,7 @@ public class SwitchExpression {
         System.out.println("Dia: " + nomeDia); // Saída: Dia: Terça
     }
 }
-```
+
 ```
 ### 19 - Conversões (Casting)O ato de converter o valor de uma variável de um tipo para outro.Casting Implícito (Automático): 
 - Ocorre quando um tipo menor é convertido para um maior (ex: int para double).
@@ -372,7 +372,7 @@ public class SwitchExpression {
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class Conversao {
     public static void main(String[] args) {
         // Implícito (int para double)
@@ -387,7 +387,7 @@ public class Conversao {
         System.out.println("Conversão Explícita (int): " + valorInteiro);
     }
 }
-```
+
 ```
 ## 🔁 Estruturas de Repetição (Laços)
 ### 20 - While Repete um bloco de código enquanto uma condição for verdadeira. 
@@ -396,7 +396,7 @@ public class Conversao {
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class LoopWhile {
     public static void main(String[] args) {
         int contador = 1;
@@ -407,7 +407,7 @@ public class LoopWhile {
         // Imprime de 1 a 5
     }
 }
-```
+
 ```
 ### 21 - Do While 
 - Similar ao while, mas a condição é verificada depois da execução do bloco. 
@@ -417,7 +417,7 @@ public class LoopWhile {
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class LoopDoWhile {
     public static void main(String[] args) {
         int contador = 10; // Condição inicial é falsa (10 <= 5 é false)
@@ -428,7 +428,7 @@ public class LoopDoWhile {
         // Saída: Executado uma vez: 10 (executa o bloco, verifica e para)
     }
 }
-```
+
 ```
 ### 22 - For Usado para repetições que têm um número predefinido ou previsível de iterações. 
 - É ideal para percorrer sequências.
@@ -436,7 +436,7 @@ public class LoopDoWhile {
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class LoopFor {
     public static void main(String[] args) {
         // Inicialização: int i = 0 (começa em 0)
@@ -450,7 +450,6 @@ public class LoopFor {
 }
 
 ```
-```
 ### 23 - Vetor (Array)
 - Uma estrutura de dados que armazena uma coleção de elementos do mesmo tipo em posições contíguas na memória. 
 - Os elementos são acessados por um índice, que começa em 0.
@@ -458,7 +457,7 @@ public class LoopFor {
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class Vetor {
     public static void main(String[] args) {
         String[] frutas = new String[3]; // Array de 3 posições (índices 0, 1, 2)
@@ -472,7 +471,6 @@ public class Vetor {
 }
 
 ```
-```
 ### 24 - Foreach (Enhanced For Loop)
 
 - Uma variação do laço for, simplificada e ideal para percorrer todos os elementos de coleções (como Arrays ou Listas) sem a necessidade de gerenciar índices.EstruturaUsofor (Tipo variavel : colecao)Para cada elemento da coleção, faça.
@@ -480,7 +478,7 @@ public class Vetor {
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class Foreach {
     public static void main(String[] args) {
         int[] numeros = {10, 20, 30, 40};
@@ -493,7 +491,6 @@ public class Foreach {
 }
 
 ```
-```
 ### 25 - Matriz (Array Multidimensional)
 - Um Array cujos elementos são outros Arrays. 
 - O mais comum é o Array de duas dimensões, que se parece com uma tabela (linhas x colunas).
@@ -502,7 +499,7 @@ public class Foreach {
 
 ### Exemplo Prático:Java
 ```
-```
+
 public class Matriz {
     public static void main(String[] args) {
         // Matriz 2x2: 2 linhas e 2 colunas
@@ -528,5 +525,4 @@ public class Matriz {
     }
 }
 
-```
 ```
